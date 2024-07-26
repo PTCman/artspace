@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="at">"SN 1987A for Chandra's 25th Anniversary"</string>
+    <string name="ad">"The supernova explosion that created this object was first observed on Earth in February 1987. Chandra sees X-rays produced by debris from the explosion. X-rays from Chandra (purple); optical and infrared from Hubble (red, green, blue); infrared from Webb (red, green, and blue)"</string>
+    <string name="bt">"WR 124 for Chandra's 25th Anniversary"</string>
+    <string name="bd">"WR 124 is a rare type of Wolf-Rayet star, a bright, massive star experiencing a short-lived phase in its evolution. A dense wind from the star may prevent the detection with Chandra of a neutron star companion. X-rays from Chandra (purple); infrared from Herschel, Spitzer, WISE (blue) and Webb (red, green, and blue)"</string>
+    <string name="ct">"Orion Nebula for Chandra's 25th Anniversary (Chandra/Webb composite)"</string>
+    <string name="cd">"The Cassiopeia A supernova remnant has been observed for more than 2 million seconds since the start of the Chandra mission in 1999. X-rays from Chandra (blue); infrared from Webb (orange, white, and blue)"</string>
+    <string name="dt">"NGC 3324 for Chandra's 25th Anniversary (Chandra/Webb composite)"</string>
+    <string name="dd">"Astronomers nicknamed this region of star formation the “Cosmic Cliffs,” which is found in the nearby Carina Nebula. X-rays from young stars in two clusters are detected by Chandra. X-rays from Chandra (purple); infrared from Webb (yellow, green, cyan, and blue)"</string>
+    <string name="et">"NGC 1365 for Chandra's 25th Anniversary (Chandra/Webb composite)"</string>
+    <string name="ed">"This spiral galaxy contains a supermassive black hole and stars rapidly forming in its center. Chandra sees X-rays from gas near the massive black hole and from smaller black holes or neutron stars pulling material from companion stars. X-rays from Chandra (blue); optical from VLT (yellow and blue); infrared from Webb (red, green, and blue)"</string>
+</resources>
