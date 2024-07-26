@@ -17,7 +17,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentWidth
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -116,13 +118,14 @@ fun ArtSpace(@StringRes title: Int,
              onClickPrevious: ()->Unit,
              modifier: Modifier = Modifier) {
     Column(modifier = modifier
-        .fillMaxSize(),
+        .fillMaxSize()
+        .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally) {
 
         Box(modifier = Modifier
             .weight(0.6f)
             .fillMaxWidth()
-            .padding(top= 100.dp, start = 30.dp, end = 30.dp, bottom = 30.dp)
+            .padding(top = 80.dp, start = 30.dp, end = 30.dp, bottom = 30.dp)
             .shadow(15.dp, RoundedCornerShape(2.dp))
             .border(width = 2.dp, shape = RoundedCornerShape(4.dp), color = Color.White)
             .background(Color.White)){
@@ -134,7 +137,7 @@ fun ArtSpace(@StringRes title: Int,
         Column(modifier = Modifier
             .weight(0.3f)
             .fillMaxWidth()
-            .padding(top= 20.dp, start = 30.dp, end= 30.dp, bottom = 10.dp)
+            .padding(top = 20.dp, start = 30.dp, end = 30.dp, bottom = 20.dp)
             .background(Color(0xffECEBF4))) {
             Text(text = stringResource(id = title),
                 fontWeight = FontWeight.Bold,
@@ -146,6 +149,7 @@ fun ArtSpace(@StringRes title: Int,
                 fontSize = 15.sp,
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
+                    .verticalScroll(rememberScrollState())
                 )
         }
         Row(modifier = Modifier
